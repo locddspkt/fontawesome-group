@@ -17,7 +17,9 @@ require_once ('path/to/fontawesome-group/autoload.php');
 <head>
     <meta charset="UTF-8">
     <!-- load the javascript file of fontawesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+        integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
     <title>Icon list</title>
 </head>
 <body style="padding: 20px">
