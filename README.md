@@ -24,6 +24,7 @@ require_once ('path/to/fontawesome-group/autoload.php');
     <?= FontAwesomeGroupHelper\FaIcon::create('icons-fas_clock_plus') ?>
 </body>
 </html>
+```
 
 ## License
 
