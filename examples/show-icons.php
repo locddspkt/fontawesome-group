@@ -5,6 +5,7 @@ use FontAwesomeGroupHelper\FontAwesomeGroupHelper;
 use FontAwesomeGroupHelper\Constants;
 use FontAwesomeGroupHelper\FaIcon;
 
+$isDesigning = true;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,5 +15,7 @@ use FontAwesomeGroupHelper\FaIcon;
 </head>
 <body style="padding: 20px">
     <?= FaIcon::create('icons-fas_user_plus_higher') ?>
+    <?= FaIcon::create('icons-far_clock_plus') ?>
+    <?= FaIcon::create('icons-far_fa_cog') ?>
 </body>
 </html>

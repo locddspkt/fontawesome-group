@@ -32,4 +32,10 @@ class CommonFunction {
         // return our finished random string
         return $random_string;
     }
+
+    public static function isDesigningClass() {
+        global $isDesigning;
+        if (!isset($isDesigning)) $isDesigning = false;
+        return $isDesigning ? 'fa-10x' : '';
+    }
 }
